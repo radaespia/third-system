@@ -14,9 +14,9 @@ CREATE TABLE Usuarios (
 );
 
 
-INSERT INTO ProblemasDeSalud (nombre_problema) VALUES ('Hipertensión');
-INSERT INTO ProblemasDeSalud (nombre_problema) VALUES ('Diabetes');
-INSERT INTO ProblemasDeSalud (nombre_problema) VALUES ('Asma');
+INSERT INTO ProblemasDeSalud (nombre_problema) VALUES ('vision');
+INSERT INTO ProblemasDeSalud (nombre_problema) VALUES ('auiditivo');
+INSERT INTO ProblemasDeSalud (nombre_problema) VALUES ('movilidad');
 
 
 INSERT INTO Usuarios (nombre, apellido, numero_identificacion, edad, id_problema_salud)
